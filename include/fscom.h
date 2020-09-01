@@ -466,4 +466,13 @@ typedef struct fscom {
 
   char fortran[33];
 
+  struct dbbab {
+      char host[129];
+      int port;
+      int time_out;
+      char mcast_addr[129];
+      int mcast_port;
+      char mcast_if[16];
+  } dbbad;
+
 } Fscom;

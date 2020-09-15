@@ -486,4 +486,8 @@ typedef struct fscom {
     int iping;
   } dbtcn;
 
+  int  dbbc3_ddcv_v;
+  char dbbc3_ddcv_vs[16];
+  int  dbbc3_ddcv_vc;
+
 } Fscom;

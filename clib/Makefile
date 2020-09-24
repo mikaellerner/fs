@@ -47,7 +47,7 @@ tpi_vlba.o tpicd_util.o tracks4_util.o tracks_util.o trkfrm4_util.o \
 trkfrm_util.o user_device_util.o user_info_util.o v2_head_vmov.o \
 v2_motion_done.o v2_vlt_head.o v_vlt_head.o vacuum.o venable_util.o vform_util.o \
 vlbabbcd.o vrepro_util.o vset_zero.o vsi4_util.o vst_util.o wvolt_util.o \
-caccess.o dbbc3_core3h_modex_util.o dbbc3_version_check.o
+caccess.o dbbc3_core3h_modex_util.o dbbc3_version_check.o mk5dbbc3d.o
 
 clib.a: $(OBJECTS)
 
